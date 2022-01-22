@@ -19,5 +19,11 @@ public class QuickController {
 	public String indexramu() {
 		return "Hello Ramu";
 	}
+	
+	@CrossOrigin
+	@GetMapping("/kk")
+	public String indexkk() {
+		return "Hello kk";
+	}
 
 }
