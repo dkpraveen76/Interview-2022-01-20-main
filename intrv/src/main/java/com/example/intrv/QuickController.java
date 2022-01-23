@@ -25,5 +25,10 @@ public class QuickController {
 	public String indexkk() {
 		return "Hello kk";
 	}
+	@CrossOrigin
+	@GetMapping("/praveen")
+	public String indexpraveen() {
+		return "Hello praveen";
+	}
 
 }
