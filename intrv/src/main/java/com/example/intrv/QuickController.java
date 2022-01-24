@@ -36,5 +36,10 @@ public class QuickController {
 	public String indexsir() {
 		return "Hello Sir";
 	}
+	@CrossOrigin
+	@GetMapping("/hello")
+	public String indexhello() {
+		return "Hello All";
+	}
 
 }
